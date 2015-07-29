@@ -10,14 +10,6 @@ class Graph extends CI_Controller {
         {
                 parent::__construct();
                 $this->load->model('graph_model');
-                
-                // Load the session library
-                $this->load->library('session');
-                
-                // Load URL helper
-                $this->load->helper('url');
-                
-                // TODO Load Other helpers (link, etc)
         }
         
         // Index page will show all of the graphs available
